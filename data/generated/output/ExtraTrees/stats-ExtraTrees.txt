@@ -1,0 +1,38 @@
+Model used = 'ExtraTrees'Classifier model details:
+ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=None, max_features='auto', max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)
+
+Model score:
+0.92857
+
+Classification report:
+             precision    recall  f1-score   support
+
+          a       1.00      0.82      0.90        11
+          b       1.00      1.00      1.00         8
+          d       1.00      1.00      1.00         5
+          e       1.00      1.00      1.00         5
+          f       1.00      1.00      1.00         6
+          g       1.00      1.00      1.00         8
+          h       1.00      1.00      1.00        13
+          j       1.00      0.83      0.91         6
+          k       1.00      0.50      0.67         6
+          m       0.77      1.00      0.87        10
+          n       0.92      0.92      0.92        12
+          o       1.00      1.00      1.00         6
+          p       1.00      0.86      0.92         7
+          q       0.44      1.00      0.62         4
+          r       0.86      0.75      0.80         8
+          s       1.00      0.92      0.96        12
+          t       1.00      1.00      1.00         8
+          x       0.86      1.00      0.92         6
+          y       1.00      1.00      1.00         6
+          z       1.00      1.00      1.00         7
+
+avg / total       0.95      0.93      0.93       154
+
+

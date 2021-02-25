@@ -1,0 +1,38 @@
+Model used = 'Voting'Classifier model details:
+VotingClassifier(estimators=[('baggingclassifier', BaggingClassifier(base_estimator=None, bootstrap=True,
+         bootstrap_features=False, max_features=1.0, max_samples=1.0,
+         n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+         verbose=0, warm_start=False)), ('cart', DecisionTreeClassifi...timators=10, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))],
+         flatten_transform=None, n_jobs=1, voting='hard', weights=None)
+
+Model score:
+0.93506
+
+Classification report:
+             precision    recall  f1-score   support
+
+          a       1.00      0.91      0.95        11
+          b       0.89      1.00      0.94         8
+          d       1.00      1.00      1.00         5
+          e       1.00      0.80      0.89         5
+          f       0.86      1.00      0.92         6
+          g       1.00      1.00      1.00         8
+          h       1.00      1.00      1.00        13
+          j       1.00      1.00      1.00         6
+          k       1.00      0.67      0.80         6
+          m       0.91      1.00      0.95        10
+          n       0.91      0.83      0.87        12
+          o       1.00      1.00      1.00         6
+          p       0.86      0.86      0.86         7
+          q       0.57      1.00      0.73         4
+          r       0.75      0.75      0.75         8
+          s       1.00      0.92      0.96        12
+          t       1.00      1.00      1.00         8
+          x       1.00      1.00      1.00         6
+          y       1.00      1.00      1.00         6
+          z       1.00      1.00      1.00         7
+
+avg / total       0.95      0.94      0.94       154
+
+

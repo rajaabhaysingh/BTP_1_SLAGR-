@@ -1,0 +1,40 @@
+Model used = 'GradientBoosting'Classifier model details:
+GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.1, loss='deviance', max_depth=3,
+              max_features=None, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+              min_samples_leaf=1, min_samples_split=2,
+              min_weight_fraction_leaf=0.0, n_estimators=100,
+              presort='auto', random_state=None, subsample=1.0, verbose=0,
+              warm_start=False)
+
+Model score:
+0.88961
+
+Classification report:
+             precision    recall  f1-score   support
+
+          a       1.00      0.82      0.90        11
+          b       0.89      1.00      0.94         8
+          d       1.00      0.80      0.89         5
+          e       0.83      1.00      0.91         5
+          f       1.00      1.00      1.00         6
+          g       1.00      1.00      1.00         8
+          h       1.00      0.92      0.96        13
+          j       1.00      0.83      0.91         6
+          k       1.00      0.50      0.67         6
+          m       0.77      1.00      0.87        10
+          n       0.82      0.75      0.78        12
+          o       1.00      1.00      1.00         6
+          p       0.80      0.57      0.67         7
+          q       0.57      1.00      0.73         4
+          r       0.62      0.62      0.62         8
+          s       1.00      1.00      1.00        12
+          t       0.89      1.00      0.94         8
+          x       1.00      1.00      1.00         6
+          y       0.86      1.00      0.92         6
+          z       0.88      1.00      0.93         7
+
+avg / total       0.90      0.89      0.89       154
+
+
